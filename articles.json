@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Project Sakura 第9章",
+    "category": "Python",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_001.md"
+  },
+  {
+    "id": 2,
+    "title": "Project Sakura 第10章",
+    "category": "Python",
+    "status": "published",
+    "url": "",
+    "content_file": "articles/article_002.md"
+  },
+  {
+    "id": 3,
+    "title": "AIを使った記事制作",
+    "category": "AI",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_003.md"
+  },
+  {
+    "id": 4,
+    "title": "Project Sakura 第9章の次にやること",
+    "category": "Project Sakura",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_004.md"
+  },
+  {
+    "id": 5,
+    "title": "Project Sakura 第9章テスト記事",
+    "category": "Python",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_005.md"
+  },
+  {
+    "id": 6,
+    "title": "Markdownテスト記事",
+    "category": "テスト",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_006.md"
+  },
+  {
+    "id": 7,
+    "title": "Markdownテンプレートテスト",
+    "category": "テスト",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_007.md"
+  },
+  {
+    "id": 8,
+    "title": "STEP20-145自動生成テスト",
+    "category": "テスト",
+    "status": "draft",
+    "url": "",
+    "content_file": "articles/article_008.md"
+  }
+]
