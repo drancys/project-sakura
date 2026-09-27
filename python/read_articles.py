@@ -11,6 +11,27 @@ def load_article_content(content_file):
         return file.read()
     
 
+def create_article_template(title, category):
+    return f"""# {title}
+
+## カテゴリー
+
+{category}
+
+## 概要
+
+ここに記事の概要を記述します。
+
+## 本文
+
+ここに記事本文を記述します。
+
+## まとめ
+
+ここに記事のまとめを記述します。
+"""
+
+
 with open("articles.json", "r", encoding="utf-8") as file:
     articles = json.load(file)
 
@@ -79,15 +100,8 @@ elif choice == "2":
 
     filename = f"articles/article_{new_id:03}.md"
 
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(f"# {title}\n\n")
-        file.write(f"カテゴリー：{category}\n\n")
-        file.write("## 概要\n\n")
-        file.write("ここに記事の概要を入力します。\n\n")
-        file.write("## 本文\n\n")
-        file.write("ここに記事本文を入力します。\n\n")
-        file.write("## まとめ\n\n")
-        file.write("ここに記事のまとめを入力します。\n")
+    template = create_article_template(title, category)
+    save_article_content(filename, template)
 
     print("記事を登録しました。")
     print(f"記事本文ファイルを作成しました：{filename}")
